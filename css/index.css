@@ -58,3 +58,20 @@
 .menu li a:hover {
     background-color: #111;
 }
+
+
+/* Title and mini description */
+
+.top h1{
+    color: white;
+    font-size: 50px;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.top h3{
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
