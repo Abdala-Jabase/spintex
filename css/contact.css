@@ -65,3 +65,55 @@ h1{
     width: 100%;
     height: 50px;
 }
+
+/* Contact */
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+    /* The subtitles in the contact section */
+    .contact h3{
+        font-size: 30px;
+    }
+    /* Right side of contact block*/
+    .right-contact{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        height: auto;
+        width: 500px;
+        margin-left: 100px;
+    }
+        /* Contact Text (top part of right block)*/
+        .contact-text{
+            font-size: 30px;
+        }
+    .fb-page{
+        margin-top: 0px;
+    }
+
+
+/* Footer of main page */
+.footer{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(196, 182, 147);
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .text{
+    font-size: larger;
+    color: antiquewhite;
+    margin: 10px 10px;
+}
+
+.footer #small{
+    font-size: smaller;
+}
+    
